@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Witcher 3: Wild Hunt - Персонажи</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">The Witcher 3: Wild Hunt</div>
+                <ul class="nav-links">
+                    <li><a href="index.html">Главная</a></li>
+                    <li><a href="characters.html" class="active">Персонажи</a></li>
+                    <li><a href="about.html">Об игре</a></li>
+                    <li><a href="locations.html">Красивые места</a></li>
+                    <li><a href="contacts.html">Контакты</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <h1>Персонажи</h1>
+            
+            <div class="characters-filter">
+                <button class="filter-btn active" data-filter="all">Все персонажи</button>
+                <button class="filter-btn" data-filter="main">Главные герои</button>
+                <button class="filter-btn" data-filter="witch">Ведьмаки</button>
+                <button class="filter-btn" data-filter="mage">Маги</button>
+                <button class="filter-btn" data-filter="ruler">Правители</button>
+                <button class="filter-btn" data-filter="monster">Монстры</button>
+            </div>
+
+            <div class="characters-grid">
+                <!-- Главные герои -->
+                <div class="character-card" data-category="main">
+                    <div class="character-image">
+                        <img src="images/геральт.jpg" alt="Геральт из Ривии">
+                    </div>
+                    <div class="character-info">
+                        <h3>Геральт из Ривии</h3>
+                        <p>Главный герой, ведьмак из Школы Волка. Охотник на монстров, обладающий сверхчеловеческими способностями.</p>
+                    </div>
+                </div>
+
+                <div class="character-card" data-category="main">
+                    <div class="character-image">
+                        <img src="images/Йеннифэр из Венгерберга.webp" alt="Йеннифэр из Венгерберга">
+                    </div>
+                    <div class="character-info">
+                        <h3>Йеннифэр из Венгерберга</h3>
+                        <p>Чародейка, возлюбленная Геральта. Обладает огромной магической силой и сложным характером.</p>
+                    </div>
+                </div>
+
+                <div class="character-card" data-category="main">
+                    <div class="character-image">
+                        <img src="images/Цири.jpg" alt="Цири">
+                    </div>
+                    <div class="character-info">
+                        <h3>Цири</h3>
+                        <p>Приемная дочь Геральта, Дитя-Неожиданность. Обладает способностью перемещаться между мирами.</p>
+                    </div>
+                </div>
+
+                <!-- Ведьмаки -->
+                <div class="character-card" data-category="witch">
+                    <div class="character-image">
+                        <img src="images/Весимир.jpg" alt="Весимир">
+                    </div>
+                    <div class="character-info">
+                        <h3>Весимир</h3>
+                        <p>Самый старый и опытный ведьмак из Школы Волка, наставник Геральта и других ведьмаков.</p>
+                    </div>
+                </div>
+
+                <div class="character-card" data-category="witch">
+                    <div class="character-image">
+                        <img src="C:\Users\ipost\Desktop\Сайт по ведьмаку\images\d4b75c25c8ac8d918532cf96ad55397b.jpg" alt="Эскель">
+                    </div>
+                    <div class="character-info">
+                        <h3>Эскель</h3>
+                        <p>Ведьмак из Школы Волка, друг и соратник Геральта. Прагматичный и опытный охотник на монстров.</p>
+                    </div>
+                </div>
+
+                <div class="character-card" data-category="witch">
+                    <div class="character-image">
+                        <img src="C:\Users\ipost\Desktop\Сайт по ведьмаку\images\Ламберт.webp" alt="Ламберт">
+                    </div>
+                    <div class="character-info">
+                        <h3>Ламберт</h3>
+                        <p>Ведьмак из Школы Волка, самый молодой среди ведьмаков Каэр Морхена. Саркастичный и циничный.</p>
+                    </div>
+                </div>
+
+                <!-- Маги -->
+                <div class="character-card" data-category="mage">
+                    <div class="character-image">
+                        <img src="images/Трисс Меригольд.webp" alt="Трисс Меригольд">
+                    </div>
+                    <div class="character-info">
+                        <h3>Трисс Меригольд</h3>
+                        <p>Чародейка, подруга Геральта и Йеннифэр. Известна своими рыжими волосами и добрым сердцем.</p>
+                    </div>
+                </div>
+
+                <div class="character-card" data-category="mage">
+                    <div class="character-image">
+                        <img src="C:\Users\ipost\Desktop\Сайт по ведьмаку\images\Филлипа.webp" alt="Филиппа Эйльхарт">
+                    </div>
+                    <div class="character-info">
+                        <h3>Филиппа Эйльхарт</h3>
+                        <p>Придворная чародейка короля Редании, могущественная и интриганская волшебница, совиные глаза.</p>
+                    </div>
+                </div>
+
+                <div class="character-card" data-category="mage">
+                    <div class="character-image">
+                        <img src="C:\Users\ipost\Desktop\Сайт по ведьмаку\images\Кера мец.jpg" alt="Кера Мец">
+                    </div>
+                    <div class="character-info">
+                        <h3>Кера Мец</h3>
+                        <p>Чародейка, член Ложи Чародеек. Обладает сильным характером и предана своим идеалам.</p>
+                    </div>
+                </div>
+
+                <div class="character-card" data-category="mage">
+                    <div class="character-image">
+                        <img src="C:\Users\ipost\Desktop\Сайт по ведьмаку\images\Маргарита Ло Aux.jpg" alt="Маргарита Ло Aux">
+                    </div>
+                    <div class="character-info">
+                        <h3>Маргарита Ло Aux</h3>
+                        <p>Директор Аретузы, чародейка с сильным характером. Подруга Трисс и член Ложи Чародеек.</p>
+                    </div>
+                </div>
+
+                <div class="character-card" data-category="mage">
+                    <div class="character-image">
+                        <img src="C:\Users\ipost\Desktop\Сайт по ведьмаку\images\Сабина Глевиссиг.png" alt="Сабина Глевиссиг">
+                    </div>
+                    <div class="character-info">
+                        <h3>Сабина Глевиссиг</h3>
+                        <p>Чародейка из Темерии, известная своей вспыльчивостью и рыжими волосами. Верная подданная Фольтеста.</p>
+                    </div>
+                </div>
+
+                <!-- Правители -->
+                <div class="character-card" data-category="ruler">
+                    <div class="character-image">
+                        <img src="C:\Users\ipost\Desktop\Сайт по ведьмаку\images\Фольтест.webp" alt="Фольтест">
+                    </div>
+                    <div class="character-info">
+                        <h3>Фольтест</h3>
+                        <p>Король Темерии, мудрый правитель, пытающийся сохранить своё королевство в условиях войны с Нильфгаардом.</p>
+                    </div>
+                </div>
+
+                <div class="character-card" data-category="ruler">
+                    <div class="character-image">
+                        <img src="C:\Users\ipost\Desktop\Сайт по ведьмаку\images\Эреден Бреакк Глас.jpg" alt="Эреден">
+                    </div>
+                    <div class="character-info">
+                        <h3>Эреден Бреакк Глас</h3>
+                        <p>Король Редании, хитрый и амбициозный правитель, один из ключевых политических деятелей Северных королевств.</p>
+                    </div>
+                </div>
+
+                <div class="character-card" data-category="ruler">
+                    <div class="character-image">
+                        <img src="C:\Users\ipost\Desktop\Сайт по ведьмаку\images\Анна Хенриетта.jpg" alt="Анна Хенриетта">
+                    </div>
+                    <div class="character-info">
+                        <h3>Анна Хенриетта</h3>
+                        <p>Герцогиня Туссента, правительница княжества, известная своей элегантностью и сильным характером.</p>
+                    </div>
+                </div>
+
+                <div class="character-card" data-category="ruler">
+                    <div class="character-image">
+                        <img src="C:\Users\ipost\Desktop\Сайт по ведьмаку\images\Радовид V.jpg" alt="Радовид V">
+                    </div>
+                    <div class="character-info">
+                        <h3>Радовид V</h3>
+                        <p>Король Редании, жестокий и амбициозный правитель. Известен как "Грозный".</p>
+                    </div>
+                </div>
+
+                <div class="character-card" data-category="ruler">
+                    <div class="character-image">
+                        <img src="C:\Users\ipost\Desktop\Сайт по ведьмаку\images\Эмгыр вар Эмрейс.webp" alt="Эмгыр вар Эмрейс">
+                    </div>
+                    <div class="character-info">
+                        <h3>Эмгыр вар Эмрейс</h3>
+                        <p>Император Нильфгаарда, отец Цири. Беспощадный завоеватель, стремящийся объединить континент под своей властью.</p>
+                    </div>
+                </div>
+
+                <!-- Союзники -->
+                <div class="character-card" data-category="ally">
+                    <div class="character-image">
+                        <img src="images/Лютик.webp" alt="Лютик">
+                    </div>
+                    <div class="character-info">
+                        <h3>Лютик</h3>
+                        <p>Бард, поэт и лучший друг Геральта. Всегда попадает в неприятности, но обладает добрым сердцем.</p>
+                    </div>
+                </div>
+
+                <div class="character-card" data-category="ally">
+                    <div class="character-image">
+                        <img src="C:\Users\ipost\Desktop\Сайт по ведьмаку\images\Золтан Хивай.jpg" alt="Золтан Хивай">
+                    </div>
+                    <div class="character-info">
+                        <h3>Золтан Хивай</h3>
+                        <p>Лидер банды "Смертельный отряд", старый друг Лютика. Верный товарищ и умелый воин.</p>
+                    </div>
+                </div>
+
+                <div class="character-card" data-category="ally">
+                    <div class="character-image">
+                        <img src="C:\Users\ipost\Desktop\Сайт по ведьмаку\images\Сигизмунд Дийкстра.jpg" alt="Сигизмунд Дийкстра">
+                    </div>
+                    <div class="character-info">
+                        <h3>Сигизмунд Дийкстра</h3>
+                        <p>Глава красанской разведки, хитрый и прагматичный политик, мастер интриг и шпионажа.</p>
+                    </div>
+                </div>
+
+                <div class="character-card" data-category="ally">
+                    <div class="character-image">
+                        <img src="C:\Users\ipost\Desktop\Сайт по ведьмаку\images\Эмиль Регис.webp" alt="Эмиль Регис">
+                    </div>
+                    <div class="character-info">
+                        <h3>Эмиль Регис</h3>
+                        <p>Высший вурдалак-баритус, обладающий медицинскими знаниями. Неожиданный союзник Геральта в поисках Цири.</p>
+                    </div>
+                </div>
+
+                <div class="character-card" data-category="ally">
+                    <div class="character-image">
+                        <img src="C:\Users\ipost\Desktop\Сайт по ведьмаку\images\Красный рыцарь.webp" alt="Красный рыцарь">
+                    </div>
+                    <div class="character-info">
+                        <h3>Красный рыцарь</h3>
+                        <p>Таинственный рыцарь из Туссента, появляющийся во время турнира. Обладает необычной силой и навыками.</p>
+                    </div>
+                </div>
+
+                <div class="character-card" data-category="ally">
+                    <div class="character-image">
+                        <img src="C:\Users\ipost\Desktop\Сайт по ведьмаку\images\Ольгиерд фон Эверец.webp" alt="Ольгиерд фон Эверец">
+                    </div>
+                    <div class="character-info">
+                        <h3>Ольгиерд фон Эверец</h3>
+                        <p>Бессмертный разбойник, заключивший сделку с Годом Отфридом. Владелец поместья в Хоуссове.</p>
+                    </div>
+                </div>
+
+                <!-- Антагонисты -->
+
+                <div class="character-card" data-category="enemy">
+                    <div class="character-image">
+                        <img src="C:\Users\ipost\Desktop\Сайт по ведьмаку\images\Карантир.webp" alt="Карантир">
+                    </div>
+                    <div class="character-info">
+                        <h3>Карантир</h3>
+                        <p>Член Дикой Охоты, могущественный маг. Один из самых опасных противников Геральта.</p>
+                    </div>
+                </div>
+
+                <!-- Монстры -->
+                <div class="character-card" data-category="monster">
+                    <div class="character-image">
+                        <img src="C:\Users\ipost\Desktop\Сайт по ведьмаку\images\Детлафф ван дер Эретайн.webp" alt="Детлафф ван дер Эретайн">
+                    </div>
+                    <div class="character-info">
+                        <h3>Детлафф ван дер Эретайн</h3>
+                        <p>Высший вампир, один из самых опасных противников Геральта. Обладает огромной силой и скоростью.</p>
+                    </div>
+                </div>
+
+                <div class="character-card" data-category="monster">
+                    <div class="character-image">
+                        <img src="C:\Users\ipost\Desktop\Сайт по ведьмаку\images\Ориана.webp" alt="Ориана">
+                    </div>
+                    <div class="character-info">
+                        <h3>Ориана</h3>
+                        <p>Высшая вампирша, певица в театре. Обладает чарующим голосом и смертоносными когтями.</p>
+                    </div>
+                </div>
+
+                <div class="character-card" data-category="monster">
+                    <div class="character-image">
+                        <img src="images/лесная хозяюшка.jpg" alt="Лесная хозяюшка">
+                    </div>
+                    <div class="character-info">
+                        <h3>Лесные хозяйки</h3>
+                        <p>Древнее лесное божество, могущественное существо, почитаемое местными жителями.</p>
+                    </div>
+                </div>
+
+                <!-- Второстепенные персонажи -->
+                <div class="character-card" data-category="secondary">
+                    <div class="character-image">
+                        <img src="C:\Users\ipost\Desktop\Сайт по ведьмаку\images\Барон.webp" alt="Барон">
+                    </div>
+                    <div class="character-info">
+                        <h3>Барон</h3>
+                        <p>Военачальник из Веллена, обладает сложным характером. Его история связана с семейной трагедией.</p>
+                    </div>
+                </div>
+
+                <div class="character-card" data-category="secondary">
+                    <div class="character-image">
+                        <img src="C:\Users\ipost\Desktop\Сайт по ведьмаку\images\Таларь.webp" alt="Таларь">
+                    </div>
+                    <div class="character-info">
+                        <h3>Таларь</h3>
+                        <p>Эльфийский лидер Скуа'телов, борец за свободу своего народа. Союзник или враг в зависимости от выбора игрока.</p>
+                    </div>
+                </div>
+
+                <div class="character-card" data-category="secondary">
+                    <div class="character-image">
+                        <img src="images/хьяльмар.jpg" alt="Хьяльмар">
+                    </div>
+                    <div class="character-info">
+                        <h3>Хьяльмар</h3>
+                        <p>Сын короля Брана, воин Скеллиге. Отважный боец, претендующий на трон островов.</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h3>Ведьмак 3</h3>
+                    <p>Фан-сайт по вселенной Ведьмака</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Быстрые ссылки</h4>
+                    <ul>
+                        <li><a href="index.html">Главная</a></li>
+                        <li><a href="characters.html">Персонажи</a></li>
+                        <li><a href="about.html">Об игре</a></li>
+                        <li><a href="locations.html">Красивые места</a></li>
+                        <li><a href="contacts.html">Контакты</a></li>
+                    </ul>
+                </div>
+                <div class="footer-legal">
+                    <p>&copy; 2023 Фан-сайт Ведьмак 3. Все права защищены.</p>
+                    <p>Это неофициальный фан-сайт. Все материалы принадлежат их правообладателям.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Фильтрация персонажей
+        document.addEventListener('DOMContentLoaded', function() {
+            const filterBtns = document.querySelectorAll('.filter-btn');
+            const characterCards = document.querySelectorAll('.character-card');
+            
+            filterBtns.forEach(btn => {
+                btn.addEventListener('click', function() {
+                    // Убираем активный класс у всех кнопок
+                    filterBtns.forEach(b => b.classList.remove('active'));
+                    // Добавляем активный класс текущей кнопке
+                    this.classList.add('active');
+                    
+                    const filter = this.getAttribute('data-filter');
+                    
+                    characterCards.forEach(card => {
+                        if (filter === 'all' || card.getAttribute('data-category') === filter) {
+                            card.style.display = 'block';
+                        } else {
+                            card.style.display = 'none';
+                        }
+                    });
+                });
+            });
+        });
+    </script>
+</body>
+</html>
